@@ -55,12 +55,16 @@ let bici = [
 
 console.log(bici);
 console.log(bici[2]);
-const [biciLeggera] = bici[2];
+const [biciLeggera] = bici;
 console.log(biciLeggera);
 
 
 let pesoMin = 0;
 
 for(let i=0 ; i < bici.length ; i++){
+    if(bici[i].peso < pesoMin){
+        pesoMin = bici[i].peso;
+    }
 
 }
+console.log(pesoMin);
