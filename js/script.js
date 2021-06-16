@@ -28,3 +28,39 @@
 
 // const {newStudente} = studenti;
 // console.log(newStudente);
+
+//array di oggetti
+let bici = [
+    {
+        nome:"mk1" ,
+        peso: 20,
+    },
+    {
+        nome: "mk2",
+        peso: 23,
+    },
+    {
+        nome: "mk22",
+        peso: 10,
+    },
+    {
+        nome: "mk45",
+        peso: 29,
+    },
+    {
+        nome: "mk0",
+        peso: 100,
+    },
+];
+
+console.log(bici);
+console.log(bici[2]);
+const [biciLeggera] = bici[2];
+console.log(biciLeggera);
+
+
+let pesoMin = 0;
+
+for(let i=0 ; i < bici.length ; i++){
+
+}
